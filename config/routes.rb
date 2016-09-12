@@ -3,9 +3,5 @@ Rails.application.routes.draw do
     resources :articles
   end
 
-  resources :articles do
-
-  end
-
   root 'welcome#index'
 end
